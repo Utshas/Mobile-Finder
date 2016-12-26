@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="7dp"
+    android:background="#100"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#eff"
+        android:text="STOP MUSIC" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/button1"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.87"
+                android:lineSpacingExtra="7sp"
+                android:padding="2dp"
+                android:text="HOW IT WORKS: Just send your pre-set key as a text message to your mobile... your mobile will start playing your default call ringtone and you&apos;ll get it&apos;s position. If your mobile is in silent or vibration mode it&apos;ll turn it to normal mode. Set key by tapping settings icon at the top-right. CASE doesn&apos;t matter but careful about SPACES."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#dff" />
+
+</RelativeLayout>
